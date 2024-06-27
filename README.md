@@ -30,6 +30,8 @@ O objetivo deste trabalho é calcular o link budget para uma comunicação sem f
 
 ### Relatório
 
++ Comparar os resultados observados com os resultados teóricos obtidos através das fórmulas estudadas nas aulas teóricas.
+
 + Discutir as principais fontes de perda (atenuação, interferência, obstáculos) e como otimizar o link budget.
 
 + Discutir a importância de otimizar o link budget para garantir uma conexão confiável.
