@@ -22,7 +22,7 @@ O objetivo deste trabalho é calcular o link budget para uma comunicação sem f
   + Lpath: Perda de propagação do sinal (dependente da distância e ambiente).
   + GR: Ganho da antena receptora.
 
-+ Calcular a Link Margin, levando em consideração a sensibilidade do receptor descrita na documentação do WiFi LoRa 32.
++ Calcular a Link Margin (também conhecida como Fade Margin), levando em consideração a sensibilidade do receptor descrita na documentação do WiFi LoRa 32.
 
 ![RX Sensibility](./img/heltec%20sensitivity.png)
 
@@ -33,6 +33,8 @@ O objetivo deste trabalho é calcular o link budget para uma comunicação sem f
 + Comparar os resultados observados com os resultados teóricos obtidos através das fórmulas estudadas nas aulas teóricas.
 
 + Discutir as principais fontes de perda (atenuação, interferência, obstáculos) e como otimizar o link budget.
+
++ Pesquisar qual a Link Margin típica em um sistema IoT e comparar os resultados obtidos com isso.
 
 + Discutir a importância de otimizar o link budget para garantir uma conexão confiável.
 
