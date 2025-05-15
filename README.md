@@ -10,17 +10,17 @@ O objetivo deste trabalho é calcular o link budget para uma comunicação sem f
 
 ### Procedimento
 
-+ Um dispositivo deverá atuar como transmissor, transmitindo o sinal com uma potência conhecida (PT), enquanto ouro, a uma distância conhecida, atuará como receptor.
++ Um dispositivo deverá atuar como transmissor, transmitindo o sinal com uma potência conhecida (PT), enquanto outro, a uma distância conhecida, atuará como receptor.
 
-+ Medir a potência recebida (PR) 
++ Medir a potência recebida (PR)
 
-+ Usar a seguinte fórmula: **Link Budget = PT − PR + GT − Lpath + GR** 
++ Usar a seguinte fórmula: **Link Budget = PT − PR + GT − Lpath + GR**
 
-    + PT: Potência transmitida (conhecida).
-    + PR: Potência recebida (medida).
-    + GT: Ganho da antena transmissora.
-    + Lpath: Perda de propagação do sinal (dependente da distância e ambiente).
-    + GR: Ganho da antena receptora.
+  + PT: Potência transmitida (conhecida).
+  + PR: Potência recebida (medida).
+  + GT: Ganho da antena transmissora.
+  + Lpath: Perda de propagação do sinal (dependente da distância e ambiente).
+  + GR: Ganho da antena receptora.
 
 + Calcular a Link Margin, levando em consideração a sensibilidade do receptor descrita na documentação do WiFi LoRa 32.
 
@@ -37,4 +37,3 @@ O objetivo deste trabalho é calcular o link budget para uma comunicação sem f
 + Discutir a importância de otimizar o link budget para garantir uma conexão confiável.
 
 + Comparar os resultados com uma ou mais outra antena.
-
